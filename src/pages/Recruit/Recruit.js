@@ -3,12 +3,8 @@ import logo from "../../assets/hasset/pbf.svg"
 import logo1 from "../../assets/hasset/pbf1.svg"
 import "./Recruit.css"
 import "../slider2.css"
-import { BsArrowLeft, BsArrowRight } from "react-icons/bs"
 import recruitdata from './Recruitdata'
 import Slider2 from '../slider2'
-import lens from "../../assets/hasset/lens.svg"
-import mrkt from "../../assets/hasset/mrkt.svg"
-import dev from "../../assets/hasset/dev.svg"
 import Nav from '../nav'
 import { useNavigate } from 'react-router'
 import Slider3 from '../slider3'
