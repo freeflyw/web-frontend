@@ -1,0 +1,25 @@
+.sliderd1{
+    display: flex;
+    overflow-y: auto;
+   
+}
+.sliderd1::-webkit-scrollbar {
+    display: none;
+  }
+.slid1{
+    height: 300px;
+    width: 256px;
+    margin: 0 18px;
+}
+.slid1 img{
+  
+    height: 300px;
+    width: 256px;
+}
+.sliderd1 p{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 0 20px;
+}

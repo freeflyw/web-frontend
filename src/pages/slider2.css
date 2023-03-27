@@ -1,0 +1,92 @@
+
+:root{
+    --rd:66%;
+    --rh:11%
+}
+.img-slide-r{
+    position: absolute;
+    box-shadow: 5px 15px 33px;
+    width: 100%;
+    transition: transform 1s ease-in-out,width 1s ease-in-out;
+}
+.img-trans{
+    transition: transform 1s ease-in-out,width 1s ease-in-out
+}
+.img-slide-r img{
+    width: 100%;
+}
+
+.recruit-home .img-slide-r:nth-of-type(1){
+    transform: translate(calc(-6*var(--rd)),0);
+    width: calc(100% - calc(5.3*var(--rh)));
+    z-index: 5;
+}
+
+.recruit-home .img-slide-r:nth-of-type(2){
+    transform: translate(calc(-4*var(--rd)),0);
+    z-index: 6;
+    width: calc(100% - calc(4*var(--rh)));
+    
+    }
+    .recruit-home .img-slide-r:nth-of-type(3){
+    transform: translate(calc(-3*var(--rd)),0);
+    z-index: 7;
+    width: calc(100% - calc(3*var(--rh)));
+}
+.recruit-home .img-slide-r:nth-of-type(4){
+    transform: translate(calc(-2*var(--rd)),0);
+    width: calc(100% - calc(2*var(--rh)));
+    z-index: 8;
+}
+.recruit-home .img-slide-r:nth-of-type(5){
+    transform: translate(calc(-1 * var(--rd)),0);
+    width: calc(100% - calc(1*var(--rh)));
+    z-index: 9;
+    }
+.recruit-home .img-slide-r:nth-of-type(6){
+
+    z-index: 10;
+
+}
+.recruit-home .img-slide-r:nth-of-type(7){
+    transform: translate(var(--rd),0);
+    width: calc(100% - calc(1*var(--rh)));
+    z-index: 9;
+}
+.recruit-home .img-slide-r:nth-of-type(8){
+    transform: translate(calc(2*var(--rd)),0);
+    width: calc(100% - calc(2*var(--rh)));
+    z-index: 8;
+}
+.recruit-home .img-slide-r:nth-of-type(9){
+    transform: translate(calc(3*var(--rd)),0);
+    width: calc(100% - calc(3*var(--rh)));
+    z-index: 7;
+}
+.recruit-home .img-slide-r:nth-of-type(10){
+    transform: translate(calc(4*var(--rd)),0);
+    width: calc(100% - calc(4*var(--rh)));
+    z-index: 6;
+}
+.recruit-home .img-slide-r:nth-of-type(11){
+    transform: translate(calc(6*var(--rd)),0);
+    width: calc(100% - calc(5.3*var(--rh)));
+    z-index: 5;
+}
+@media screen and (max-width:600px) {
+    .m-hero-header h2{
+        text-align: center;
+    }
+    .slider{
+        width: 63%;
+    }
+    .slider-controller{
+        width: 85%;
+    }
+    .slider-controller>div{
+        font-size: 15px;
+    }
+    .slider-container{
+        
+    }
+}

@@ -1,0 +1,20 @@
+.recruit-home{
+        
+background: rgba(0,0,0,1);
+min-height: 100vh;
+background: linear-gradient(321deg, rgba(0,0,0,1) 34%, rgba(33,33,33,1) 69%);
+}
+.recruit-home .footer-txt>div{
+color: var(--pink);
+}
+.pink-br-btn:hover{
+background-color: var(--pink);
+}
+@media screen and (max-width:600px){
+    .recruit-home .m-hero{
+       width: 90%;
+       margin: 0 auto;
+       border: 1px solid var(--pink);
+       height: 480px;
+   }
+}

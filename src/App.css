@@ -1,0 +1,31 @@
+
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+    --cyancolor:rgba(0, 210, 210, 1);
+    --green:rgb(18 104 30);
+    --lightgreen:#2a5e2a;
+    --pink:#C700A7;
+    --orange:#E96A16;
+}
+a{
+    text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+.pink{
+  color: var(--pink);
+
+}
+.orange{
+  color: var(--orange);
+  
+}

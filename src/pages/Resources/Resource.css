@@ -1,0 +1,41 @@
+.resource-container{
+    border-radius: 10px;
+    max-height: 374px;
+    overflow-y: auto;
+    padding: 10px 34px;
+    white-space: pre-line;
+    color: white;
+
+}
+.resource-container h2,h3{
+    margin: 10px 0;
+}
+.resource-container h2{
+    font-size: 22px;
+}
+.resource-container h4{
+    font-size: 18px;
+    margin: 8px 0;
+}
+.resource-container h3{
+    font-size: 19px;
+}
+.resource-container p{
+    margin-top: 10px;
+}
+.resource-container::-webkit-scrollbar-thumb{
+    background-color: #389AE4;
+    /* border-radius: 0px; */
+}
+.resource-container::-webkit-scrollbar{
+    width: 12px;
+}
+.resource-container::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 1px rgb(255, 254, 254); 
+}
+@media  screen and (max-width:600px) {
+    .resource-container{
+        padding: 10px 25px;
+    }
+    
+}
