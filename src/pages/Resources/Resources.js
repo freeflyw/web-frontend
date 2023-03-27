@@ -48,7 +48,7 @@ function Resources() {
 
 <h3>1) Market Wing:</h3>
 
-Advertise, analyze, and optimize! We do it all for you
+Advertise, analyze, and optimize We do it all for you.
 
 We effectively harness the power of social media to make use of the best platforms, connect with the proper audience, and start and foster constructive dialogues with them.
 We also make sure that your customers may interact with, contribute to, rate, and promote your information, services, and products. We also conduct targeted, strategic advertising campaigns across a variety of media.
